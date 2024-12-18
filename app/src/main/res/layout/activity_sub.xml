@@ -1,0 +1,63 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#949191"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 1"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/num11"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/num22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBTRACT"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textAlignment="center"
+        tools:ignore="InvalidId" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO MENU"
+        android:id="@+id/got"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/resi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>
